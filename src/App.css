@@ -35,4 +35,12 @@ input{
   font-size: 1.5rem;
   padding: 0.3rem;
   background-color: floralwhite;
+  cursor: pointer;
+}
+.error-message{
+  font-size: 1.2rem;
+  background-color: floralwhite;
+  height: 5rem;
+  margin: auto;
+  color: red;
 }

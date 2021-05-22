@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Country = ({name}) => {
+const Country = ({name, fillInputFunction}) => {
     return (
-        <div>
-            <h1 className="dropdown-country">{name}</h1>
-        </div>
+        <>
+            <h1 className="dropdown-country" onClick={fillInputFunction}>{name}</h1>
+        </>
     )
 }
 
